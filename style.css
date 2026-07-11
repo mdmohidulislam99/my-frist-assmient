@@ -7,6 +7,10 @@
 a{
     text-decoration: none;
 }
+
+p{
+    color: #575757;
+}
 .container{
     max-width: 1200px;
     margin: auto;
@@ -96,6 +100,7 @@ a{
     width: 800px;
     text-align: center;
     margin: auto;
+    color: #ffffff;
 }
 
 .baner-btn {
@@ -156,3 +161,112 @@ a{
     font-size: 14px;
     font-weight: 400;
 }
+
+/* meet and  */
+/* prize part start  */
+
+.prize-part{
+    margin:30px;
+    padding: 20px 0px;
+}
+.prize-hading{
+    text-align: center;
+}
+.prize-hading h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.prize-hading p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.prize-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 10pxpx;
+    padding: 20px 0px;    
+}
+.prize{
+    width: 390px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.card-2{
+    background: #0D1B2A;
+}
+
+.card-2-p{
+    color: #93C5FD;
+}
+
+.prize p{
+    padding: 10px 0px;
+    font-size: 13px;
+    font-weight: 400px;
+}
+.pp{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.prize h4{
+    font-size: 44px;
+    font-weight: bold;
+}
+.prize hr{
+    margin: 10px 0;
+}
+.prize ul{
+    margin: 20px 20px 30px 20px;
+}
+
+.prize li{
+    list-style: disc;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2563EB;
+}
+
+.prize li p{
+    color: #333333;
+}
+.prize-btn{
+    font-size: 14px;
+    font-weight:600;
+    background-color: #ffffff;
+    border: 1px solid #2563EB;
+}
+.prize-btn a{
+    padding: 5px 100px;
+    text-align: center;
+    color: #2563EB;
+}
+
+
+.card-prize-2-text{
+    color: #ffffff;
+}
+.card-prize-2-ul li p{
+    color: #ffffff;
+}
+.card-2-btn{
+    background-color: #2563EB;
+    border: 1px solid black;
+}
+.card-2-btn a{
+    color: #ffffff;
+    padding: 0px 119px;
+}
+
+.prize:hover{
+    transition: all linear 0.2s;
+    transform: scale(1.11);
+    box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/* prize end  */
