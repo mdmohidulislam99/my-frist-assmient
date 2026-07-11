@@ -126,10 +126,9 @@ p{
 
 
 .meet-card{
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 30px;
 }
 .card{
     width: 570px;
@@ -270,3 +269,5 @@ p{
 }
 
 /* prize end  */
+
+/* footer part start  */
