@@ -23,6 +23,13 @@ p{
     border: none; 
     background-color: blue;   
 }
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+}
 .nav{
     margin: 15px 0px;
     display: flex;
