@@ -260,7 +260,9 @@ p{
     color: #ffffff;
     padding: 0px 119px;
 }
-
+.card-3-btn{
+        padding: 8px 17px;
+}
 .prize:hover{
     transition: all linear 0.4s;
     transform: scale(1.11);
@@ -420,6 +422,10 @@ p{
 .footer-icon a img{
     width: 100%;
     filter: brightness(0) invert(1);
+}
+.footer-icon-img a:hover img{
+    filter: brightness(0) saturate(100%) invert(34%) sepia(99%) saturate(2160%)
+            hue-rotate(201deg) brightness(98%) contrast(101%); 
 }
 
 .footer-police{
