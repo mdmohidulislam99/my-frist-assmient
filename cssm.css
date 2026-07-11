@@ -1,0 +1,32 @@
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.social-icons a {
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+hr {
+    margin: 15px 0;
+    border: 1px solid #555;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
