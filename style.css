@@ -270,4 +270,105 @@ p{
 
 /* prize end  */
 
+
+/* why dev 2026 */
+.why-dev-body{
+    background: #f5f5ff;
+    padding: 10px 20px;
+}
+.why-dev-text{
+    margin: 30px 20px;
+    text-align: center;
+}
+.why-dev-text h3{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.why-ha{
+    color: #5b3df5;
+}
+.why-dev-text p{
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 5px 10px;
+}
+
+.why-dev-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    margin: 30px 0;
+}
+.why-card{
+    background-color: #ffff;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 15px;
+    
+}
+.dev-img{
+    height: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dev-img img{
+    width: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color:#e8f0ff;
+}
+.purple img{
+    background-color: #efe5ff;
+}
+.green img{
+ background: #e5fff0;
+}
+.orange img{
+    background: #fff1e5;
+}
+.why-card h5{
+    margin: 20px 0 10px;
+    font-size: 25px;
+    /* text-align: centers; */
+}
+.why-card p{
+    font-size: 18px;
+    line-height: 1.7;
+    /* text-align: centers; */
+}
+.line{
+ margin:10px auto 0px;
+ height: 5px;
+ width: 60px;
+ border-radius: 20px;
+}
+.blue-line{
+    background: #3d82f6;
+}
+.purple-line{
+    background:#8b5cf6;
+}
+.green-line{
+    background:#22c55e;
+}
+.orange-line{
+    background:#f97316;
+}
+
+.why-btn{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
 /* footer part start  */
