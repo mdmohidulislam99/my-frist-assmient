@@ -108,3 +108,51 @@ a{
 /* baner end  */
 
 /* meet-part start  */
+.meet-part{
+    margin: 40px 0px;
+}
+.meet-part h2{
+    text-align: center;
+    margin: 20px 0px;
+    padding: 30px 0px;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+
+.meet-card{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 570px;
+    border-radius: 10px;
+    border: 1px solid rgb(172, 171, 171);
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.meet-card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-info{
+    margin: 10px 5px;
+    padding: 0px 15px;
+}
+.info{
+    font-size: 12px;
+    font-weight: 600;
+    color: blue;
+    padding-bottom: 10px;
+}
+.meet-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.meet-card p{
+    font-size: 14px;
+    font-weight: 400;
+}
